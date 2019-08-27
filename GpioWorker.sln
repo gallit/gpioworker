@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpioWorker", "GpioWorker\GpioWorker.csproj", "{5C266751-B5B2-49FB-9A43-8C2F9F0DC7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpiWorker.Engine", "GpioWorker.Engine\GpiWorker.Engine.csproj", "{5474F611-7D5F-44B0-8032-8FF335153D8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C266751-B5B2-49FB-9A43-8C2F9F0DC7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C266751-B5B2-49FB-9A43-8C2F9F0DC7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C266751-B5B2-49FB-9A43-8C2F9F0DC7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C266751-B5B2-49FB-9A43-8C2F9F0DC7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5474F611-7D5F-44B0-8032-8FF335153D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5474F611-7D5F-44B0-8032-8FF335153D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5474F611-7D5F-44B0-8032-8FF335153D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5474F611-7D5F-44B0-8032-8FF335153D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E364771-4BA0-46D9-8D0D-5D63D16B6535}
+	EndGlobalSection
+EndGlobal

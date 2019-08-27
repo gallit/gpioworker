@@ -1,0 +1,155 @@
+[
+  {
+    "Actions": [
+      {
+        "Gpio": 20,
+        "Label": "Ouverture vanne 1",
+        "OffsetSeconds": 0,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 21,
+        "Label": "Arrêt vanne 2",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 19,
+        "Label": "Arrêt vanne 3",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 26,
+        "Label": "Démarrage pompe cuve",
+        "OffsetSeconds": 5,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 26,
+        "Label": "Arrêt pompe cuve",
+        "OffsetSeconds": 185,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 20,
+        "Label": "Fermeture vanne 1",
+        "OffsetSeconds": 190,
+        "PinValue": 0
+      }
+    ],
+    "JobDurationSeconds": 0,
+    "JobId": 1,
+    "JobLabel": "Arrosage secteur 1",
+    "JobTimeoutSeconds": 3600,
+    "LastExecution": "2018-07-05T13:00:00+02:00",
+    "SleepRange": [
+      {
+        "Start": "08:00:00",
+        "End": "18:00:00"
+      }
+    ]
+  },
+  {
+    "Actions": [
+      {
+        "Gpio": 20,
+        "Label": "Arrêt vanne 1",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 21,
+        "Label": "Ouverture vanne 2",
+        "OffsetSeconds": 0,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 19,
+        "Label": "Arrêt vanne 3",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 26,
+        "Label": "Démarrage pompe cuve",
+        "OffsetSeconds": 5,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 26,
+        "Label": "Arrêt pompe cuve",
+        "OffsetSeconds": 185,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 21,
+        "Label": "Fermeture vanne 2",
+        "OffsetSeconds": 190,
+        "PinValue": 0
+      }
+    ],
+    "JobDurationSeconds": 0,
+    "JobId": 2,
+    "JobLabel": "Arrosage secteur 2",
+    "JobTimeoutSeconds": 3600,
+    "LastExecution": "2018-07-05T12:20:00+02:00",
+    "SleepRange": [
+      {
+        "Start": "08:00:00",
+        "End": "18:00:00"
+      }
+    ]
+  },
+  {
+    "Actions": [
+      {
+        "Gpio": 20,
+        "Label": "Arrêt vanne 1",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 21,
+        "Label": "Arrêt vanne 2",
+        "OffsetSeconds": 0,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 19,
+        "Label": "Ouverture vanne 3",
+        "OffsetSeconds": 0,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 26,
+        "Label": "Démarrage pompe cuve",
+        "OffsetSeconds": 5,
+        "PinValue": 1
+      },
+      {
+        "Gpio": 26,
+        "Label": "Arrêt pompe cuve",
+        "OffsetSeconds": 185,
+        "PinValue": 0
+      },
+      {
+        "Gpio": 19,
+        "Label": "Fermeture vanne 3",
+        "OffsetSeconds": 190,
+        "PinValue": 0
+      }
+    ],
+    "JobDurationSeconds": 0,
+    "JobId": 3,
+    "JobLabel": "Arrosage secteur 3",
+    "JobTimeoutSeconds": 3600,
+    "LastExecution": "2018-07-05T12:40:00+02:00",
+    "SleepRange": [
+      {
+        "Start": "08:00:00",
+        "End": "18:00:00"
+      }
+    ]
+  }
+]
